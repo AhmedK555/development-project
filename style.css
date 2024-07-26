@@ -1,0 +1,464 @@
+body {
+  background-color: #e1f0da;
+}
+
+#logo {
+  border-radius: 360px;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  margin-top: 55px;
+}
+ul {
+  list-style-type: none;
+}
+#menu_div {
+  display: flex;
+  padding: 20px 0 20px 0;
+}
+.homeItems {
+  display: flex;
+  font-size: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 10px 50px 10px 20px;
+  color: #fff8de;
+}
+.homeItems:hover {
+  color: #d6e8db;
+}
+#menu {
+  font-family: Roboto;
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+}
+nav {
+  width: 100%;
+  height: 140px;
+  bottom: 625.2px;
+  background-color: #436850;
+  margin: 0px 0px 20px 0;
+  padding: 15;
+  z-index: 99;
+  display: flex;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  justify-content: center;
+  position: fixed;
+}
+.home {
+  color: #ababab;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 20px 0px 20px 0px;
+  font-family: Roboto Arial, sans-serif;
+}
+#shop_icon {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.form {
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(
+    to top,
+    rgba(212, 255, 224, 0.8) 50%,
+    rgba(223, 255, 228, 0.8) 50%
+  );
+  position: absolute;
+  top: 125px;
+  left: 940px;
+  transform: translate(0%, -5%);
+  border-radius: 10px;
+  padding: 25px;
+  display: none;
+}
+.homeItems:hover .form {
+  display: block;
+}
+.form h2 {
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #98f5bc;
+  font-size: 22px;
+  background-color: #ad0a0a;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+
+.form input {
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #98f5bc;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: #060606;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #6f6f6f;
+  font-family: Arial;
+}
+
+.btnn {
+  width: 240px;
+  height: 40px;
+  background: #5ce791;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+.btnn:hover {
+  background: #fff;
+  color: #5ce791;
+}
+.btnn a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.form .link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 0px;
+  text-align: center;
+  color: #530202;
+}
+.form .link a {
+  text-decoration: none;
+  color: #436850;
+}
+.liw {
+  padding-top: px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #060606;
+}
+.icons a {
+  text-decoration: none;
+  color: #fff;
+}
+.icons i {
+  color: #03180b;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icons i:hover {
+  color: #03ff03;
+}
+
+#flowers_section {
+  height: 490px;
+  width: 100%;
+  background-color: #d4e7c5;
+  margin-top: 180px;
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 3px 0;
+}
+#flowers_section > h1 {
+  background-color: #e1f0da;
+  height: 35px;
+  width: 225px;
+  border-bottom-right-radius: 15px;
+  color: #436850;
+  padding-left: 20px;
+}
+#flowers_div {
+  display: flex;
+  justify-content: center;
+}
+.div_flower {
+  height: 400px;
+  width: 320px;
+  border-radius: 15px;
+  margin: 10px 30px 0px 30px;
+  border: rgb(0, 0, 0) 1px solid;
+}
+.flowers_img {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+}
+.div_flower:hover {
+  box-shadow: rgba(0, 0, 0, 0.13) 0 5px 10px 0;
+}
+#pink_flowers {
+  background-color: #f9f9f9;
+}
+#purple_flowers {
+  background-color: #f9f9f9;
+}
+#red_flowers {
+  background-color: #f9f9f9;
+}
+#white_flowers {
+  background-color: #f9f9f9;
+}
+.unit_price {
+  color: hsl(312, 19%, 55%);
+  font-size: 35px;
+  margin-top: 20px;
+}
+.price_case > h4 {
+  color: green;
+  font-size: 24px;
+  margin-top: 25px;
+}
+.div_flower > h2 {
+  color: #530202;
+  font-size: 20px;
+  text-align: center;
+}
+.price_case {
+  display: flex;
+  padding-left: 20px;
+}
+
+.minusBtn {
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 33px;
+}
+.minusBtn:hover {
+  cursor: pointer;
+  color: red;
+}
+.price_case > p {
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.plusBtn {
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 33px;
+}
+.plusBtn:hover {
+  cursor: pointer;
+  color: green;
+}
+
+.price {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.add_btn {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+li {
+  list-style: none;
+}
+#section_whatAbout {
+  height: 450px;
+  margin-top: 80px;
+}
+#what_about {
+  font-size: 60px;
+  word-spacing: 30px;
+  letter-spacing: 5px;
+  font-weight: 100;
+  color: #008550;
+  margin-left: 70px;
+}
+#what_img {
+  margin-top: 35px;
+  margin-left: 520px;
+  height: 423px;
+  width: 180px;
+}
+#plant_section {
+  width: 100%;
+  height: 550px;
+  background-color: #e1f0da;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+#plants_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.div_plant {
+  height: 500px;
+  width: 24%;
+  border-radius: 20px;
+  border: #436850 1px solid;
+  box-shadow: rgba(0, 0, 0, 0.13) 0 5px 10px 0;
+}
+.div_plant:hover {
+  box-shadow: rgba(0, 0, 0, 0.13) 0 10px 15px 0;
+}
+.plants_img {
+  width: 100%;
+  height: 350px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+#grass {
+  background-color: #a0c49d;
+}
+#orange {
+  background-color: #e1ecc8;
+}
+#apple {
+  background-color: #c4d7b2;
+}
+#raspberry {
+  background-color: #f7ffe5;
+}
+.div_plant > h2 {
+  text-align: center;
+  color: #436850;
+  font-size: 20px;
+}
+
+#div_raspberry {
+  background-color: #f7ffe5;
+  margin-top: 0px;
+}
+#there_section {
+  margin-top: 250px;
+  width: 100%;
+  height: 350px;
+  background-image: url(https://media.istockphoto.com/id/1137926413/photo/gardening-tools-and-seedlings-on-soil.jpg?s=612x612&w=0&k=20&c=BQF4L0z5_ZvxB6RGpG3B2a_1Z3dT5X0jB2fR8ua1ZJE=);
+  justify-content: center;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+#there_section > h1 {
+  color: #e1f0da;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 400;
+  padding-top: px;
+}
+#tools_section {
+  background-color: #708871;
+  height: 735px;
+  width: 100%;
+  margin-top: 00px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+#tools_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.div_tool {
+  width: 25%;
+  height: 600px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 100px;
+}
+.div_tool:hover {
+  box-shadow: rgba(0, 0, 0, 0.13) 0 5px 10px 0;
+}
+.div_tool > h2 {
+  text-align: center;
+}
+.tools_img {
+  width: 100%;
+  height: 450px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#kit {
+  background-color: #12372a;
+  border-bottom-left-radius: 0px;
+}
+#kit > h2 {
+  color: #fbfada;
+}
+#lawn {
+  background-color: #adbc9f;
+}
+#man_outfit {
+  background-color: #708871;
+}
+#man_outfit > h2 {
+  color: #fbfada;
+}
+#woman_outfit {
+  background-color: #adbc9f;
+  border-bottom-right-radius: 0px;
+}
+footer {
+  margin-top: 200px;
+  height: 80px;
+  background-color: #bec6a0;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 15px;
+}
+footer > h1 {
+  color: #d4e7c5;
+  font-size: 15px;
+}
+#icons {
+  font-size: 30px;
+  color: #d4e7c5;
+}
+#shopping_div {
+  background: linear-gradient(
+    to top,
+    rgba(212, 255, 224, 0.8) 50%,
+    rgba(223, 255, 228, 0.8) 50%
+  );
+  /* background-color:#03ff03; */
+  height: 100px;
+  width: 250px;
+  border-radius: 15px;
+  display: none;
+  padding: 25px;
+  border: #000 solid 1px;
+  position: absolute;
+  margin-top: 35px;
+}
+#shopping_div > h5 {
+  font-size: 20px;
+  color: #757575;
+}
+#shopping_div > p {
+  font-size: 40px;
+  margin-top: 25px;
+  margin-left: 20px;
+  color: #03ff03;
+}
+.homeItems:hover #shopping_div {
+  display: flex;
+
+}
+.price {
+  list-style: none;
+}
